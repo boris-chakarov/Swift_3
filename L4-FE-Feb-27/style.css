@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
+
 section {
     border: 2px solid rgba(0, 0, 0, 0.493);
     width: 20%;
@@ -12,10 +13,10 @@ form {
 }
 
 #form input {
-    border: 1px solid rgba(187, 142, 44, 0.4);
+    border: 2px solid rgba(187, 142, 44, 0.4);
     border-radius: 5px;
     background-color: white;
-    width: 90%;
+    width: 88%;
     padding: 10px 0 10px 10px;
 }
 
