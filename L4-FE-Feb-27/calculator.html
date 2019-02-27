@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<!--Rositsa Peychinova Homework 1-->
+
+<head>
+    <title>Rositsa Peychinova Homework 1</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        
+        table,
+        td,
+        th {
+            border: 2px solid maroon;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+
+                <th rowspan="2">Poster</th>
+                <th rowspan="2">Movie Title</th>
+                <th rowspan="2">Description</th>
+                <th rowspan="2">Trailer</th>
+                <th colspan="2">Rating</th>
+                <th rowspan="2">Watched</th>
+
+            </tr>
+
+            <tr>
+
+                <th>IMDB</th>
+                <th>Rotten Tomatoes</th>
+
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><img src="interstellar.jpg" height="8%" width="auto">
+                <a href="https://www.imdb.com/title/tt0816692/">Interstellar</a></td>
+            <td><a href="https://www.imdb.com/title/tt0816692/">Interstellar</a>
+                <p>2014</p>
+            </td>
+            <td>
+                <h3>Story</h3>
+                <p>Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's
+                    survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows
+                    a team of astronauts to go where no man has gone before, a planet that may have the right environment
+                    to sustain human life.</p>
+                <p>Director: <a href="https://www.imdb.com/name/nm0634240/">Christopher Nolan</a></p>
+                <p>Cast: <a href="https://www.imdb.com/name/nm0000190/?ref_=nv_sr_1"> Matthew McConaughey, <a href="https://www.imdb.com/name/nm0004266/?ref_=tt_cl_t10">Anne Hathaway</a></p>
+            </td>
+            <td>
+                <iframe width="410" height="250" src="https://www.youtube.com/embed/1NMxxfM9mYM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>Click above to watch trailer</p>
+            </td>
+            <td>IMDB
+                <form>
+                    <select name="rating">
+                            <option value="">Score from 1-10</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                          </select>
+                </form>
+            </td>
+            <td>Rotten Tomatoes
+                <form>
+                    <select name="rating" placeholder="Score from 1-10">
+                                <option value="">Score from -10 - 10</option>
+                                <option value="-10">-10</option>
+                                <option value="-9">-9</option>
+                                <option value="-8">-8</option>
+                                <option value="-7">-7</option>
+                                <option value="-6">-6</option>
+                                <option value="-5">-5</option>
+                                <option value="-4">-4</option>
+                                <option value="-3">-3</option>
+                                <option value="-2">-2</option>
+                                <option value="-1">-1</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                              </select>
+                </form>
+            </td>
+            <td>
+                <form>
+                    <input type="radio" name="Yes" value="Yes"> Yes<br>
+                    <input type="radio" name="No" value="No"> No<br>
+                </form>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
