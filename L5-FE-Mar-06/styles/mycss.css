@@ -1,0 +1,24 @@
+* {
+	text-align: center;
+}
+
+.redcolor {
+	background-color: red;
+	border: 3px solid blue;
+	color: white;
+}
+
+.greencolor {
+	background-color: green;
+	border: 3px solid blue;
+	color: white;
+}
+
+#lbl1 {
+	color: #333333;
+	font-weight: bold;
+}
+
+#lbl2 {
+	color: #000000;
+}
