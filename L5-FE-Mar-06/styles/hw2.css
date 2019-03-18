@@ -1,0 +1,23 @@
+.first {
+	background-color: green;
+}
+
+.second {
+	background-color: red;
+}
+
+.username {
+	font-weight: 900;
+	color: #7A94A6;
+
+}
+
+.password {
+	font-weight: 400;
+	color: #7A94A6;
+
+}
+
+input[type="checkbox"] {
+ 				 background-color: orange;
+			}
