@@ -1,0 +1,25 @@
+h1 {background-color: skyblue;
+text-decoration: teal;
+}
+
+.leftButton {color:green;
+border: 1px solid green;
+background:none;
+    }
+
+.rightButton {-color: maroon;
+border: 1px solid maroon;
+background:none;
+}
+
+.gangsta {color:#333333;
+font-weight: bold;}
+
+[checkbox] {color:limegreen;}
+
+.loginButton {background-color: yellow;}
+
+#username {background-color: #0FF;}
+#password {background-color: azure;}
+
+
