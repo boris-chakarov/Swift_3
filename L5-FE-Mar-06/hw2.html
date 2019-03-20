@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+     <!--<meta http-equiv="X-UA-Compatible" content="ie=edge"> позволява ни да изберем каква версия на IE да използваме-->
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Homework 2</title>
+    <link rel="stylesheet" href="styles/yourstyles.css">
+    <style>
+        * {text-align: center;}
+    </style>
+</head>
+<body>
+    <h1>Sign-up</h1>
+    <!--трябва ли тези два бутона да са във форма ?, а трябва ли да са бутони submit, линкове?-->
+    <div>
+        <button class="green">Sign up with X</button>
+        <button class="red">Sign up with Y</button>
+    </div>
+    <p>or</p>
+
+    <p><b>Register</b></p><!--BOLD само с CSS-->
+    <form id="login">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="Enter Username" required>
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter Password" required>
+        <br>
+        <br>
+        <!-- <input type="checkbox" name="rememberMe" id="rememberMe"> -->
+        <!-- <label for="rememberMe">Remember me</label> -->
+        <input type="checkbox"  id="rememberMe">
+        <label class="" for="rememberMe">Remember me</label>
+        <br>
+        <br>
+        <!-- <button type="submit">Login</button> -->
+
+
+        <!-- <table>
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td><input type="text" name="username" id="username" placeholder="Enter Username" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="text" name="password" id="password" placeholder="Enter Password" required></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="" id="remember Me">
+                    <label for="remember Me">Remember me</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                        <button type="submit">Login</button>
+                </td>
+            </tr>
+        </table> -->
+
+
+    </form>
+    <!--WHAT IS MISSING?-->
+    <button form="login" type="submit">Login</button>
+    <br>
+    <a href="">Forgotten password?</a><!--това текст ли е ?-->
+</body>
+</html>
