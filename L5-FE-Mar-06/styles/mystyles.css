@@ -2,4 +2,24 @@ h1 {
     font-size: 50px;
     font-weight: bold;
     color: rebeccapurple;
+    
+} 
+
+.buttonLeft{
+    color:green;
+    
+    
+} 
+.buttonRight
+{
+    color: blue;
+}
+label{
+    color: #333333;
+    font-weight: bold;
+    
+}
+.labelCheckbox{
+    color: #000000;
+    font-weight: normal;
 }
