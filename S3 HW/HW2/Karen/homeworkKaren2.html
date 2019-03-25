@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- <meta http-equiv="X-UA-Compatible" content="ie-edge"> -->
+		<title>Login</title>
+
+		<style>
+			* {
+				text-align: center;
+			}
+
+			form {
+				border: 1px solid black;
+				border-radius: 20px;
+				display: inline-block;
+				padding: 25px;
+				background-color: rgb(232,232,232);
+			}
+
+			h1 {
+				border: 1px solid black;
+				border-radius: 15px;
+				background-color: rgb(123,199,77);
+			}
+
+			table {
+				width: 100%;
+				margin: 0 auto;
+			}
+
+			.sign-up {
+				border: 1px solid black;
+				border-radius: 15px;
+				height:30px;
+				width:120px;
+				background-color: white;
+			}
+
+			.login {
+				border: 1px solid black;
+				border-radius: 15px;
+				height:30px;
+				width:120px;
+				background-color: rgb(123,199,77);
+			}
+
+			input[type="text"], input[type="password"] {
+				border: 1px solid black;
+				border-radius: 15px;
+				height:25px;
+				background-color: rgb(242,242,242);
+			}
+
+		</style>
+
+
+	</head>
+
+	<body>
+		<form action="">
+			<div>
+				<h1>Sign-up</h1>
+				<button class="sign-up" type="submit">Sign-Up with X</button>
+				<button class="sign-up" type="submit">Sign-Up with Y</button>
+			</div>
+			<p>or</p>
+			<p>Register</p>
+			<div>
+				<table>
+					<tr>
+						<td><strong><label for="userName">Username</label></strong></td>
+						<td><input type="text" id="userName" name="userName" placeholder="Enter Username" required autofocus=""></td>
+					</tr>
+					<tr>
+						<td><strong><label for="password">Password</label></strong></td>
+						<td><input type="password" id="password" name="password" placeholder="Enter Password" required></td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align: center;">
+							<p>
+								<button class="login" type="submit">Login</button>
+							</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<p>
+					<input type="checkbox" id="rememberMe" name="rememberMe">
+					<label for="rememberMe"><em>Remember Me?</em></label>
+					<br>
+					<a href="">Forgotten Password</a>
+				</p>
+			</div>
+				
+		</form>
+	</body>
+</html>
