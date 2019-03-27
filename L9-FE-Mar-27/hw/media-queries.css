@@ -22,7 +22,7 @@
 
 @media all and (orientation : portrait) {
     body {
-        background-color: #DADAE9;
-        color: #505075;
+        /* background-color: #DADAE9;
+        color: #505075; */
     }
 }
