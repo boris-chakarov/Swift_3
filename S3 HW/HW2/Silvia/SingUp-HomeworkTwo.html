@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sing Up page</title>
+    <style>
+        * {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sign-up</h1>
+    </header>
+    <div>
+        <input type="button" value="Sing-up with X">
+        <input type="button" value="Sing-up with Y">
+    </div>
+    <p>or</p>
+    <!--<br>Register</br>https://www.w3schools.com/tags/tag_br.asp -->
+    <!--break tag-a не може да има съдържание - за справка статията в горния коментар-->
+
+        <form>
+            <b><label for="Username">Username:</label></b>
+            <input type="text" name="Username" id="Username" value="" placeholder="Enter your username or e-mali adress"
+                required>
+            <p>
+                <b><label for="Password">Password:</label></b>
+                <input type="password" name="Password" id="Password" value="" placeholder="Enter your password"
+                    required>
+            </p>
+        </form>
+
+    <p>
+        <label for="Remember me">Remember me</label>
+        <!--тъй като стойносттана for е обвързана с ID не може съдържа празни characters-->
+        <input type="checkbox" name="Remember me" id="Remember me" value="Remember me">
+        <!--ID не може да съдържа spaces -->
+        <br>
+        <a href="http://www.Forgotten-Password-Link"> Forgotten password?</a>
+    </p>
+</body>
+
+</html>
